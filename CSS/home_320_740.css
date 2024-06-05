@@ -1,0 +1,608 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 320px) and (max-width: 739px){
+    body{
+        background-color: #00298D;
+    }
+    /* Cabeçario */
+    .manrope-uniquifier {
+      font-family: "Manrope", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+    }
+    .logo{
+        width: 7%;
+        height: 7%;
+        margin-top: 3vw;
+        margin-left: 3vw;
+    }
+    .ecocean{
+        font-size: 2.5vw;
+        margin-left: 14vw;
+        margin-top: -5.2vw;
+    }
+    .linkheader1{
+        text-decoration: none;
+        margin-left: 40%;
+        font-size: 2.3vw;
+        position: relative;
+        margin-top: -35vw;
+        bottom: 3vw;
+    }
+    .linkheader2{
+        text-decoration: none;
+        margin-left: 57%;
+        font-size: 2.3vw;
+        position: relative;
+        margin-top: -35vw;
+        bottom: 6vw;
+    }
+    .linkheader3{
+        text-decoration: none;
+        margin-left: 11%;
+        font-size: 2.3vw;
+        position: relative;
+        margin-top: -35vw;
+        top: -6VW;
+        color: black;
+        background-color: #F2E3D5;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-top: 1.1vw;
+        padding-bottom: 1.1vw;
+        border-radius: 3vw;
+        font-weight: 500;
+    }
+    h2, p, a{
+        color: white;
+    }
+    /* final cabecario */
+    /* main */
+        /* Section 1 */
+        .colaboreT1{
+            font-size: 5vw;
+            width: 50%;
+            text-align: center;
+            margin: auto;
+            margin-top: 10%;
+        }
+        .colaboreT2{
+            font-size: 1.7vw;
+            width: 35%;
+            text-align: center;
+            margin: auto;
+            margin-top: 1%;
+            margin-bottom: 4vw;
+        }
+        .colaboreL1{
+            text-decoration: none;
+            font-size: 2.3vw;
+            color: black;
+            margin-left: 34%;
+            background-color: #F2E3D5;
+            padding-left: 10vw;
+            padding-right: 10vw;
+            padding-top: 1.1vw;
+            padding-bottom: 1.1vw;
+            border-radius: 3vw;
+            font-weight: 600;
+        }
+        /* final section 1 */
+
+        /* section 2 */
+        .LimpOce{
+            width: 30%;
+            height: 30%;
+            margin-left: 10%;
+            margin-top: 15%;
+        }
+        .limpOceP1{
+            font-size: 2.5vw;
+            width: 40%;
+            text-align: center;
+            margin-left: 50%;
+            margin-top: -22%;
+            line-height: 5vw;
+        }
+        .linpezaDosOcean a{
+            text-decoration: none;
+        }
+        /* final section 2 */
+
+        /* section 3 */
+        .EspeciesImg{
+            width: 30%;
+            height: 30%;
+            margin-left: 60%;
+            margin-top: 22%;
+        }
+        .Especies a{
+            text-decoration: none;
+        }
+        .Especies p{
+            width: 40%;
+            font-size: 2.5vw;
+            text-align: center;
+            margin-left: 10%;
+            margin-top: -22%;
+            line-height: 5vw;
+        }
+        /* final section 3 */
+
+        /* section 4 */
+        .Ilegalidades img{
+            width: 40%;
+            height: 40%;
+            margin-left: -0.5%;
+            margin-top: 17%;
+
+        }
+        .Ilegalidades a{
+            text-decoration: none;
+        
+        }
+        .Ilegalidades p{
+            width: 40%;
+            font-size: 2.5vw;
+            text-align: center;
+            margin-left: 50%;
+            margin-top: -22%;
+            line-height: 5vw;
+        }
+        /* final section 4 */
+
+        /* secttion 5 */
+        .volunP1{
+            font-size: 3vw;
+            width: 50%;
+            text-align: center;
+            margin: auto;
+            margin-top: 35%;
+            margin-bottom: 5%;
+            line-height: 5vw;
+        }
+        .volunA1{
+            text-decoration: none;
+            background-color: #F2E3D5;
+            padding-left: 10vw;
+            padding-right: 10vw;
+            padding-top: 1.4vw;
+            padding-bottom: 1.4vw;
+            color: black;
+            font-weight: 600;
+            border-radius: 3vw;
+            font-size: 2vw;
+            margin-left: 35%;
+        }
+        .volunP2{
+            font-size: 3vw;
+            width: 50%;
+            text-align: center;
+            margin: auto;
+            margin-top: 2%;
+            margin-bottom: 5%;
+            line-height: 5vw;
+        }
+        .volunA2{
+            text-decoration: none;
+            background-color: #F2E3D5;
+            padding-left: 6vw;
+            padding-right: 6vw;
+            padding-top: 1.4vw;
+            padding-bottom: 1.4vw;
+            color: black;
+            font-weight: 600;
+            border-radius: 3vw;
+            font-size: 2vw;
+            margin-left: 35%;
+            position: relative;
+            top: -2.7vw;
+        }
+        /* final section 5 */
+        .pexao{
+            width: 50%;
+            height: 50%;
+            margin-left: 50%;
+            margin-top: -20%;
+        }
+        /* services */
+        .services{
+            height: 25vw;
+        }
+            /* article 1 */
+            .article1{
+                background-color: #060F23;
+                width: 30%;
+                border-radius: 2vw;
+                margin-left: 2%;
+                margin-top: -40%;
+            }
+            .article1 img{
+                width: 40%;
+                height: 40%;
+                margin-left: 50%;
+                position: relative;
+                bottom: 2vw;
+            }
+            .services a{
+                text-decoration: none;
+            }
+            .services p{
+                font-size: 2vw;
+                width: 10%;
+                text-align: center;
+                margin-left: 7%;
+                position: relative;
+                top: 9vw;
+            }
+            /* final article 1 */
+
+            /* article 2 */
+            .article2{
+                background-color: #013F68;
+                width: 30%;
+                border-radius: 2vw;
+                margin-left: 35%;
+                position: relative;
+                bottom: 20.5vw;
+                height: 20.7vw;
+            }
+            .article2 img{
+                width: 45%;
+                height: 60%;
+                margin-left: 50%;
+                position: relative;
+                bottom: 5vw;
+            }      
+            .article2 p{
+                width: 35%;
+                font-size: 2vw;
+                line-height: 3vw;
+                text-align: center;
+                position: relative;
+                top: 5vw;
+
+            }
+            /* final article 2 */
+
+            /* article 3 */
+            .article3{
+                background-color: #0042C2;
+                width: 30%;
+                border-radius: 2vw;
+                margin-left: 68%;
+                position: relative;
+                top: -41vw;
+                height: 20.7vw;
+            }
+            .article3 img{
+                width: 40%;
+                height: 60%;
+                margin-left: 50%;
+            }
+            .article3 p{
+                width: 40%;
+                text-align: center;
+                font-size: 2vw;
+            }
+            /* final article 3 */               
+
+        /* final services */
+        footer img{
+            width: 100%;
+            position: relative;
+            z-index: 10;
+            margin-top: 10%;
+        }
+        a:hover{
+            /* background-color: lightblue; */
+            transition: background-color 1s;
+            background-color: lightskyblue;
+        }
+
+}
+@media screen and (min-width: 740px){
+    body{
+        background-color: #00298D;
+    }
+    /* Cabeçario */
+    .manrope-uniquifier {
+      font-family: "Manrope", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+    }
+    .logo{
+        width: 7%;
+        height: 7%;
+        margin-top: 3vw;
+        margin-left: 3vw;
+    }
+    .ecocean{
+        font-size: 2.5vw;
+        margin-left: 14vw;
+        margin-top: -5.2vw;
+    }
+    .linkheader1{
+        text-decoration: none;
+        margin-left: 40%;
+        font-size: 2.3vw;
+        position: relative;
+        margin-top: -35vw;
+        top: -2vw;
+    }
+    .linkheader2{
+        text-decoration: none;
+        margin-left: 57%;
+        font-size: 2.3vw;
+        position: relative;
+        margin-top: -35vw;
+        top: -4.4vw;
+    }
+    .linkheader3{
+        text-decoration: none;
+        margin-left: 11%;
+        font-size: 2.3vw;
+        position: relative;
+        margin-top: -35vw;
+        top: -5vw;
+        color: black;
+        background-color: #F2E3D5;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-top: 1.1vw;
+        padding-bottom: 1.1vw;
+        border-radius: 3vw;
+        font-weight: 500;
+    }
+    h2, p, a{
+        color: white;
+    }
+    /* final cabecario */
+    /* main */
+        /* Section 1 */
+        .colaboreT1{
+            font-size: 5vw;
+            width: 50%;
+            text-align: center;
+            margin: auto;
+            margin-top: 10%;
+        }
+        .colaboreT2{
+            font-size: 1.7vw;
+            width: 35%;
+            text-align: center;
+            margin: auto;
+            margin-top: 1%;
+            margin-bottom: 4vw;
+        }
+        .colaboreL1{
+            text-decoration: none;
+            font-size: 2.3vw;
+            color: black;
+            margin-left: 34%;
+            background-color: #F2E3D5;
+            padding-left: 10vw;
+            padding-right: 10vw;
+            padding-top: 1.1vw;
+            padding-bottom: 1.1vw;
+            border-radius: 3vw;
+            font-weight: 600;
+        }
+        /* final section 1 */
+
+        /* section 2 */
+        .LimpOce{
+            width: 30%;
+            height: 30%;
+            margin-left: 10%;
+            margin-top: 15%;
+        }
+        .limpOceP1{
+            font-size: 2.5vw;
+            width: 40%;
+            text-align: center;
+            margin-left: 50%;
+            margin-top: -22%;
+            line-height: 5vw;
+        }
+        .linpezaDosOcean a{
+            text-decoration: none;
+        }
+        /* final section 2 */
+
+        /* section 3 */
+        .EspeciesImg{
+            width: 30%;
+            height: 30%;
+            margin-left: 60%;
+            margin-top: 22%;
+        }
+        .Especies a{
+            text-decoration: none;
+        }
+        .Especies p{
+            width: 40%;
+            font-size: 2.5vw;
+            text-align: center;
+            margin-left: 10%;
+            margin-top: -22%;
+            line-height: 5vw;
+        }
+        /* final section 3 */
+
+        /* section 4 */
+        .Ilegalidades img{
+            width: 40%;
+            height: 40%;
+            margin-left: -0.5%;
+            margin-top: 17%;
+
+        }
+        .Ilegalidades a{
+            text-decoration: none;
+        
+        }
+        .Ilegalidades p{
+            width: 40%;
+            font-size: 2.5vw;
+            text-align: center;
+            margin-left: 50%;
+            margin-top: -22%;
+            line-height: 5vw;
+        }
+        /* final section 4 */
+
+        /* secttion 5 */
+        .volunP1{
+            font-size: 3vw;
+            width: 50%;
+            text-align: center;
+            margin: auto;
+            margin-top: 35%;
+            margin-bottom: 5%;
+            line-height: 5vw;
+        }
+        .volunA1{
+            text-decoration: none;
+            background-color: #F2E3D5;
+            padding-left: 10vw;
+            padding-right: 10vw;
+            padding-top: 1.4vw;
+            padding-bottom: 1.4vw;
+            color: black;
+            font-weight: 600;
+            border-radius: 3vw;
+            font-size: 2vw;
+            margin-left: 35%;
+        }
+        .volunP2{
+            font-size: 3vw;
+            width: 50%;
+            text-align: center;
+            margin: auto;
+            margin-top: 2%;
+            margin-bottom: 5%;
+            line-height: 5vw;
+        }
+        .volunA2{
+            text-decoration: none;
+            background-color: #F2E3D5;
+            padding-left: 6vw;
+            padding-right: 6vw;
+            padding-top: 1.4vw;
+            padding-bottom: 1.4vw;
+            color: black;
+            font-weight: 600;
+            border-radius: 3vw;
+            font-size: 2vw;
+            margin-left: 35%;
+            position: relative;
+            top: -2.7vw;
+        }
+        /* final section 5 */
+        .pexao{
+            width: 50%;
+            height: 50%;
+            margin-left: 50%;
+            margin-top: -20%;
+        }
+        /* services */
+        .services{
+            height: 25vw;
+        }
+            /* article 1 */
+            .article1{
+                background-color: #060F23;
+                width: 30%;
+                border-radius: 2vw;
+                margin-left: 2%;
+                margin-top: -40%;
+            }
+            .article1 img{
+                width: 40%;
+                height: 40%;
+                margin-left: 50%;
+                position: relative;
+                bottom: 2vw;
+            }
+            .services a{
+                text-decoration: none;
+            }
+            .services p{
+                font-size: 2vw;
+                width: 10%;
+                text-align: center;
+                margin-left: 7%;
+                position: relative;
+                top: 9vw;
+            }
+            /* final article 1 */
+
+            /* article 2 */
+            .article2{
+                background-color: #013F68;
+                width: 30%;
+                border-radius: 2vw;
+                margin-left: 35%;
+                position: relative;
+                bottom: 20.5vw;
+                height: 20.7vw;
+            }
+            .article2 img{
+                width: 45%;
+                height: 60%;
+                margin-left: 50%;
+                position: relative;
+                bottom: 5vw;
+            }      
+            .article2 p{
+                width: 35%;
+                font-size: 2vw;
+                line-height: 3vw;
+                text-align: center;
+                position: relative;
+                top: 5vw;
+
+            }
+            /* final article 2 */
+
+            /* article 3 */
+            .article3{
+                background-color: #0042C2;
+                width: 30%;
+                border-radius: 2vw;
+                margin-left: 68%;
+                position: relative;
+                top: -41vw;
+                height: 20.7vw;
+            }
+            .article3 img{
+                width: 40%;
+                height: 60%;
+                margin-left: 50%;
+            }
+            .article3 p{
+                width: 40%;
+                text-align: center;
+                font-size: 2vw;
+            }
+            /* final article 3 */               
+
+        /* final services */
+        footer img{
+            width: 100%;
+            position: relative;
+            z-index: 10;
+            margin-top: 10%;
+        }
+        a:hover{
+            /* background-color: lightblue; */
+            transition: background-color 1s;
+            background-color: lightskyblue;
+        }
+}

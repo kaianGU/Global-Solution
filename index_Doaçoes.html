@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./IMAGENS/LOGO_FAVICON.PNG">
+    <link rel="stylesheet" href="./CSS/Doacoes.css">
+    <title>Doações</title>
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "49c07b0a-1cd3-4b1b-baac-822febb0034f", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "88079f10-a026-4d98-b8c2-53592ed8a019", // The ID of your service instance.
+          onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img src="./IMAGENS/LOGO.png" alt="logo"></a>
+        <a href="./index.html"><h2 class="manrope-uniquifier">Ecocean</h2></a>
+        <a href="index_CadastroLogin.html" class="manrope-uniquifier linkheader3">Cadastre-se</a>
+    </header>
+    <main>
+        <h1 class="manrope-uniquifier">Doações</h1>
+        <section class="sec1">
+            <h2 class="manrope-uniquifier">5 R$</h2>
+        </section>
+        <section class="sec2">
+            <H2 class="manrope-uniquifier">10R$</H2>
+        </section>
+        <section class="sec3">
+            <input class="anotherValue" type="number" min="1" placeholder="Outro Valor">
+        </section>
+        <a href="#" class="doar manrope-uniquifier">Doar</a>
+    </main>
+</body>
+</html>

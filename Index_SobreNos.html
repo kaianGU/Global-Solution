@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./IMAGENS/LOGO_FAVICON.PNG">
+        <link rel="stylesheet" href="./CSS/SobreNos.css">
+        <title>Sobre Nós</title>
+        <script>
+            window.watsonAssistantChatOptions = {
+              integrationID: "49c07b0a-1cd3-4b1b-baac-822febb0034f", // The ID of this integration.
+              region: "us-south", // The region your integration is hosted in.
+              serviceInstanceID: "88079f10-a026-4d98-b8c2-53592ed8a019", // The ID of your service instance.
+              onLoad: async (instance) => { await instance.render(); }
+            };
+            setTimeout(function(){
+              const t=document.createElement('script');
+              t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+              document.head.appendChild(t);
+            });
+          </script>
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img class="logo" src="./IMAGENS/LOGO.png" alt="Logo"></a>
+            <a href="index.html"><h2 class="manrope-uniquifier ecocean">Ecocean</h2></a>
+        </header>
+        <main>
+            <section><!-- sobre a ecocean -->
+                <img class="loogo" src="./IMAGENS/LOGO.png" alt="logo">
+                <h1 class="manrope-uniquifier">Ecocean</h1>
+                <p class="manrope-uniquifier aEco">A Ecocean é uma startup brasileira que se dedica à conservação dos oceanos. Embora seu foco não seja exclusivamente na restauração, a empresa desempenha um papel fundamental na manutenção da biodiversidade marinha. Suas soluções inovadoras contribuem para a preservação dos ecossistemas aquáticos. Entre suas iniciativas notáveis estão o #Biohut e o #Biorestore, que são vendidos globalmente e têm impacto direto na proteção de milhares de peixes</p>
+            </section>
+            <section><!-- membros -->
+                <h2 class="manrope-uniquifier membros">Conheça Nossos Desenvolvedores</h2>
+                <article class="M1">
+                    <img src="./IMAGENS/Kaian.PNG" alt="imagem Membro">
+                    <h2 class="manrope-uniquifier">Kaian Gustavo</h2>
+                    <p class="manrope-uniquifier">Um jovem desenvolvedor Front-End que aprecia o desenvolvimento e prototipação de sites.</p>
+                </article>
+                <article class="M2">
+                    <h2 class="manrope-uniquifier">Giovanna Revito</h2>
+                    <p class="manrope-uniquifier">Uma jovem desenvolvedora de bancos de Dados e aplicações Java.</p>
+                    <img src="./IMAGENS/Revito.PNG" alt="imagem membro">
+                </article>
+                <article class="M3">
+                    <img src="./IMAGENS/Kenji.PNG" alt="imagem membro">
+                    <h2 class="manrope-uniquifier">Lucas Kenji</h2>
+                    <p class="manrope-uniquifier">Um jovem desenvolvedor de Inteligências artificiais e complexas programação em Python.</p>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <img src="./IMAGENS/GOLFOSO.PNG" alt="rodape">
+        </footer>
+    </body>
+</html>

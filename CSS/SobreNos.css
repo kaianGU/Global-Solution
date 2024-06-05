@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 320px){
+    body{
+        background-color: #00298D;;
+    }
+    .manrope-uniquifier {
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+      }
+    .logo{
+        width: 7%;
+        height: 7%;
+        margin-top: 3vw;
+        margin-left: 3vw;
+    }
+    .ecocean{
+        font-size: 2.5vw;
+        margin-left: 14vw;
+        margin-top: -5.2vw;
+        color: white;
+    }
+    .loogo{
+        width: 25%;
+        height: 25%;
+        margin-left: 37.5%;
+        margin-top: 10%;
+    }
+    h1{
+        color: white;
+        font-size: 5vw;
+        width: 100%;
+        text-align: center;
+    }
+    .aEco{
+        color: white;
+        width: 70%;
+        font-size: 1.5vw;
+        margin-left: 15%;
+        text-align: center;
+        margin-top: 5%;
+        line-height: 3vw;
+    }
+    .membros{
+        width: 50%;
+        font-size: 5vw;
+        margin-left: 25%;
+        margin-top: 7%;
+        color: white;
+        text-align: center;
+    }
+    /* section menbros */
+        /* article 1 */
+        .M1 img{
+            height: 35vw;
+            width: 35vw;
+            border-radius: 50%;
+            margin-left: 7%;
+            margin-top: 15%;
+        }
+        .M1 h2{
+            color: white;
+            font-size: 4vw;
+            margin-left: 55%;
+            margin-top: -30vw;
+        }
+        .M1 p{
+            color: white;
+            font-size: 2vw;
+            width: 28%;
+            text-align: center;
+            margin-left: 55%;
+            margin-top: 5%;
+            line-height: 3vw;
+        }
+        /* final article 1 */
+        /* article 2 */
+        .M2 img{
+            width: 35vw;
+            height: 35vw;
+            border-radius: 50%;
+            margin-top: -21%;
+            margin-left: 55%;
+        }
+        .M2 h2{
+            color: white;
+            font-size: 4vw;
+            margin-left: -50%;
+            text-align: center;
+            margin-top: 25%;
+        }
+        .M2 p{
+            color: white;
+            font-size: 2vw;
+            width: 30%;
+            text-align: center;
+            line-height: 3vw;
+            margin-left: 10%;
+            margin-top: 5%;
+        }
+        /* final article 2 */
+        /* article 3 */
+        .M3 img{
+            width: 35vw;
+            height: 35vw;
+            border-radius: 50%;
+            margin-top: 14%;
+            margin-left: 7%;
+        }
+        .M3 h2{
+            color: white;
+            font-size: 4vw;
+            margin-left: 58%;
+            margin-top: -28%;
+        }
+        .M3 p{
+            color: white;
+            width: 30%;
+            line-height: 3vw;
+            font-size: 2vw;
+            text-align: center;
+            margin-left: 54%;
+            margin-top: 5%;
+        }
+        /* final article 3 */
+        footer img{
+            width: 100%;
+            margin-top: 5%;
+        }
+        a:hover{
+                transition:1s;
+                background-color: lightskyblue;
+            
+        }
+}

@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 320px){
+html{
+    background-image: url(../IMAGENS/VidaMarinha.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.manrope-uniquifier {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+  header img{
+    width: 7%;
+    height: 7%;
+    margin-left: 5%;
+    margin-top: 4%;
+
+}
+  header h2{
+    margin-left: 15%;
+    font-size: 2vw;
+    color: white;
+    margin-top: -5vw;
+}
+  .linkheader3{
+    text-decoration: none;
+    margin-left: 75%;
+    font-size: 2.3vw;
+    position: relative;
+    margin-top: -35vw;
+    top: -2.7vw;
+    color: black;
+    background-color: #F2E3D5;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1.1vw;
+    padding-bottom: 1.1vw;
+    border-radius: 3vw;
+    font-weight: 500;
+}
+main{
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 10%;
+  width: 90%;
+  margin-left: 5%;
+  padding-bottom: 20%;
+  border-radius: 2vw;
+}
+h1{
+  color: white;
+  font-size: 5vw;
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+}
+.sec1{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 20%;
+  border-radius: 1vw;
+  margin-left: 5%;
+  margin-top: 10%;
+
+}
+.sec1 h2{
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 4vw;
+  padding-top: 4vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-bottom: 4vw;
+}
+.sec2{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 20%;
+  border-radius: 1vw;
+  margin: auto;
+  margin-top: -14%;
+
+}
+.sec2 h2{
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 4vw;
+  padding-top: 4vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-bottom: 4vw;
+}
+.sec3{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 20%; 
+  border-radius: 1vw;
+  margin-left: 76%;
+  margin-top: -14%;
+  height: 13vw;
+  /* padding-top: 5vw; */
+  padding-bottom: 5vw;
+
+}
+.anotherValue{
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 4.5vw;
+  width: 19vw;
+  padding-top: 1vw;
+  margin-left: 1vw;
+  height: 3vw;
+  
+}
+.anotherValue::placeholder{
+  color: white;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  font-size: 3vw;
+}
+input[type="number"] {
+  color: white;
+  font-size: 2.9vw;
+  font-weight: bold;
+  /* margin-bottom: 20%; */
+}
+.doar{
+  background-color: #F2E3D5;
+  font-size: 4vw;
+  color: black;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  text-decoration: none;
+  border-radius: 3vw;
+  margin-left: 30vw;
+  /* margin-top: 10%; */
+  position: relative;
+  top: 10vw;
+}
+a:hover{
+  transition: 1s;
+  background-color: lightskyblue;
+}
+}
