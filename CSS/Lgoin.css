@@ -56,6 +56,9 @@ h1{
   margin-top: 5%;
   background-color: #F2E3D5;
   border-radius: 3vw;
+  font-size: 4vw;
+  padding-bottom: 2vw;
+  text-align: center;
   text-align: center;
 }
 
@@ -73,13 +76,6 @@ input:hover{
   background-color: lightskyblue;
 }
 
-
-
-
-
-
-
-
 .senha{
   border: none;
   width: 60%;
@@ -88,6 +84,9 @@ input:hover{
   margin-top: 4%;
   background-color: #F2E3D5;
   border-radius: 3vw;
+  text-align: center;
+  font-size: 4vw;
+  padding-bottom: 1vw;
   text-align: center;
 }
 

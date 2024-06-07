@@ -84,6 +84,9 @@
         margin-bottom: 3%;
         border-radius: 3vw;
         margin-left: 5%;
+        font-size: 4vw;
+        padding-bottom: 1vw;
+        text-align: center;
     }
 
     input::placeholder{
@@ -132,7 +135,10 @@
         width: 90%;
         margin-left: 5%;
         height: 5vw;
-        background-color: #F2E3D5;
+        /* background-color: #19ea9a; */
+        /* background-color: #44ff00; */
+        /* background-color: #0070f8e6; */
+        background-color: lightskyblue;
         border-radius: 3vw;
         font-size: 3vw;
         margin-top: 5%;
